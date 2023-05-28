@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// Context Management
+// import ContextPageWrapper from "./Ecommerce(context)/context-page";
+// import SelectorContextPageWrapper from "./Ecommerce(context)/context-selector";
+// import CounterState from "./Context/counter";
+// import CounterReducerState from "./Context/counter-reducer";
+// import Zustand from "./Ecommerce(context)/zustand";
+
+//Recoil Management
+// import { RecoilRoot } from "recoil";
+// import ComponentOne from "./Recoil/ComponentOne";
+// import ComponentTwo from "./Recoil/ComponentTwo";
+
+//Redux
+import Multiply from "./Redux/multiply";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <CounterState /> */}
+      {/* <CounterReducerState /> */}
+      {/* <Zustand /> */}
+      {/* <ContextPageWrapper /> */}
+      {/* <SelectorContextPageWrapper /> */}
+      {/* <RecoilRoot>
+        <ComponentOne />
+        <ComponentTwo />
+      </RecoilRoot> */}
+      <Multiply />
+    </>
   );
 }
 
